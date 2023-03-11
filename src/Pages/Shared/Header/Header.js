@@ -20,11 +20,7 @@ const Header = () => {
                     <Navbar.Brand as={Link} to='/'>Dragon News</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="me-auto">
-                            <Nav.Link as={Link}>All News</Nav.Link>
-                            <Nav.Link as={Link} >Pricing</Nav.Link>
-                        </Nav>
-                        <Nav className='d-flex align-items-center'>
+                        <Nav className='d-flex align-items-center ms-auto'>
                             {user?.uid && <Nav.Link>{user?.displayName}</Nav.Link>}
                             <Nav.Link eventKey={2} href="#memes">
 

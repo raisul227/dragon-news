@@ -1,0 +1,21 @@
+[debug] [2023-03-11T18:54:44.239Z] ----------------------------------------------------------------------
+[debug] [2023-03-11T18:54:44.241Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Raisul\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-03-11T18:54:44.241Z] CLI Version:   11.24.0
+[debug] [2023-03-11T18:54:44.241Z] Platform:      win32
+[debug] [2023-03-11T18:54:44.241Z] Node Version:  v16.18.0
+[debug] [2023-03-11T18:54:44.242Z] Time:          Sun Mar 12 2023 00:54:44 GMT+0600 (Bangladesh Standard Time)
+[debug] [2023-03-11T18:54:44.242Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-11T18:54:44.249Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-11T18:54:44.249Z] > authorizing via signed-in user (raisul2277@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Projects\Project For PortFolio\dragon-news
+

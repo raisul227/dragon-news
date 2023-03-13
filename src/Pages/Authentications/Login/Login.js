@@ -3,6 +3,7 @@ import { Button, Form } from 'react-bootstrap';
 import toast from 'react-hot-toast';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../../contexts/AuthProvider';
+import './login.css';
 
 const Login = () => {
     const [error, setError] = useState('');
@@ -33,7 +34,7 @@ const Login = () => {
             })
     }
     return (
-        <Form onSubmit={handleLogin} className='mx-auto' style={{ width: '80%' }}>
+        <Form onSubmit={handleLogin} className='mx-auto custom-form' style={{ width: '80%' }}>
             <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Email address</Form.Label>
                 <Form.Control type="email" name='email' placeholder="Enter email" />

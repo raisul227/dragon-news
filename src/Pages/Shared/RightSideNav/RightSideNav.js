@@ -19,7 +19,7 @@ const RightSideNav = () => {
     return (
         <div>
             <ButtonGroup vertical>
-                <Button onClick={handleGoogleLogin} className='mb-2' variant='outline-primary'><FaGoogle></FaGoogle> Login With Google</Button>
+                <Button onClick={handleGoogleLogin} className='mb-2 ' variant='outline-primary'><FaGoogle></FaGoogle> Login With Google</Button>
                 <Button variant='outline-dark'><FaGithub></FaGithub> Login With Github</Button>
             </ButtonGroup>
             <div className="mt-4">
